@@ -21,6 +21,4 @@ test('Returns the key-value pairs', () => {
     expect(toPairs(new Foo)).toEqual([['a', 1], ['b', 2]]);
     expect(toPairs(GfG)).toEqual([['x', 1], ['y', 2]]);
     expect(toPairs(new Fb)).toEqual([["id", 2045], ["username", "fb_myself"], ["password", "fb1234"]]);
-
-
 });
