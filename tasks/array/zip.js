@@ -4,7 +4,7 @@ function zip(...arr) {
     let resultArr = [];
     let count = 0;
 
-    for (let n = 0; n < arrFromElements[n].length; n++) {
+    for (let n = 0; n < arrFromElements[0].length; n++) {
         for (let i = 0; i < arrFromElements.length; i++) {
             groupedElements[count] = arrFromElements[i][n];
             count++;
