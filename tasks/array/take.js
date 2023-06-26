@@ -7,7 +7,7 @@ function take(arr, num) {
     if (num === undefined) {
         num = 1;
     }
-    for(let i = 0; i < num; i++) {
+    for (let i = 0; i < num; i++) {
         newArr[ind] = arr[i];
         ind++;
     }

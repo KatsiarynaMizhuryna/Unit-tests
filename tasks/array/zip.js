@@ -1,6 +1,6 @@
 function zip(...arr) {
-    let arrFromElements = [...arr]
-    let groupedElements = []
+    let arrFromElements = [...arr];
+    let groupedElements = [];
     let resultArr = [];
     let count = 0;
 

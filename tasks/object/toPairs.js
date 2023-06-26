@@ -10,4 +10,4 @@ function toPairs(obj) {
     return arrayFromObj;
 }
 
-module.exports = toPairs
+module.exports = toPairs;

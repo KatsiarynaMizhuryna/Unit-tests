@@ -4,7 +4,7 @@ function drop(arr, num) {
     if (num === undefined) {
         num = 1;
     }
-    for(let i = num; i < arr.length; i++) {
+    for (let i = num; i < arr.length; i++) {
         newArr[ind] = arr[i];
         ind++;
     }
