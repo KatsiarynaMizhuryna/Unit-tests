@@ -9,4 +9,5 @@ function compact(arr) {
     }
     return newArr;
 }
+
 module.exports = compact;

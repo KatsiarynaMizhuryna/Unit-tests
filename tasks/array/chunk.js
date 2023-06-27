@@ -18,4 +18,5 @@ function chunk(arr, num) {
     }
     return [firstArr, secondArr];
 }
+
 module.exports = chunk;

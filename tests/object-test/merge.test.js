@@ -15,6 +15,7 @@ let obj = {
 let oth = {
     amit: [{ chinmoy: 30 }, { kripamoy: 50 }],
 };
+
 test("", () => {
     expect(merge(object, other)).toEqual({
         a: [
