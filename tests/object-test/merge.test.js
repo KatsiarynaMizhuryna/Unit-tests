@@ -16,7 +16,7 @@ let oth = {
     amit: [{ chinmoy: 30 }, { kripamoy: 50 }],
 };
 
-test("", () => {
+test("Used to merge two or more objects starting with the left-most to the right-most to create a parent mapping object", () => {
     expect(merge(object, other)).toEqual({
         a: [
             { b: 2, d: 4 },
